@@ -1,7 +1,7 @@
 var expect = require('chai').expect;
 var capitalizeWord = require('../capitalize-word');
 
-describe.skip('capitalizeWord(word)', function () {
+describe('capitalizeWord(word)', function () {
 
   it('capitalizes "foo"', function () {
     var input = 'foo';
